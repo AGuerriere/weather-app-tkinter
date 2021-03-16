@@ -3,7 +3,6 @@ import requests
 import json
 import os # This is needed to import the api environment variable
 my_api = os.environ.get('AIRNOW_API')
-print(type(my_api))
 root = Tk()
 root.title('Weather app by AG')
 root.configure(background='white')
